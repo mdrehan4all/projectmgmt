@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: -8px;
+}
+
+.mainbox{
+    border: 1px solid #d6d6d6;
+    border-radius: 20px;
+    width: 538px;
+    height: 604px;
+    padding:40px;
+}
+
+.heading {
+    display: block;
+    margin-top:20px;
+    font-size: 35px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.subheading {
+    display: block;
+    font-size: 25px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.input-email{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width:512px;
+    height:66px;
+    margin-top:50px;
+    font-size: 15px;
+    padding-left:20px;
+}
+.input-password{
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    width:512px;
+    height:66px;
+    margin-top:20px;
+    font-size: 15px;
+    padding-left:20px;
+}
+.forgot-Password{
+    color:#333333;
+    display: block;
+    margin-top:30px;
+    margin-bottom:40px;
+    font-size:15px;
+    font-weight:400;
+}
+.btn-continue{
+    display: block;
+    background-color:#0016df;
+    border:none;
+    color:#ffffff;
+    height:66px;
+    width:536px;
+    border-radius:5px;
+}
+.new-user{
+    display: block;
+    color:#333333;
+    font-size:20px;
+    text-align:center;
+    margin-top:40px;
+}
